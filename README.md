@@ -33,22 +33,10 @@ Installation
    npm install
    ```
 
-3. Compile TypeScript (optional, for production builds):
+3. Run development Server:
    ```bash
-   npx tsc
+   npm run dev
    ```
-
-4. Start the server in development mode:
-   ```bash
-   npx ts-node src/app.ts
-   ```
-
-5. (Optional) Run the server with hot-reload during development:
-   ```bash
-   npm install --save-dev nodemon
-   npx nodemon src/app.ts
-   ```
-
 ---
 
 API Endpoints
@@ -183,22 +171,6 @@ src/
 │   └── itemTypes.ts     # TypeScript types and interfaces for items
 ├── data/
 │   └── storage.ts       # In-memory data store
-
----
-
-Development
-
-To run the application in development mode with hot-reload:
-
-1. Install nodemon:
-   ```bash
-   npm install --save-dev nodemon
-   ```
-
-2. Start the server:
-   ```bash
-   npx nodemon src/app.ts
-   ```
 
 ---
 
